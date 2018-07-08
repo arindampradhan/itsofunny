@@ -1,3 +1,5 @@
+import fonts from '../utils/font';
+
 const xkcdTheme = {
     primary: '#96A8C8',
     white: '#fff',
@@ -7,4 +9,7 @@ const xkcdTheme = {
     fontsmall: '12px',
     fontsize: '14px',
     fontlarge: '16px',
+    fontFamilyPrimary: fonts.Neucha,
 }
+
+export default xkcdTheme
